@@ -11,6 +11,7 @@
 <section class="explore container py">
     <h2 class="overlineTitle">Istražite</h2>
     <article class="row no-gutters justify-content-between">
+
         <div class="col-md-6">
             <img class="img-fluid" src="img/plaze.webp" alt="plaze">
             <h5>Plaže</h5>
@@ -42,7 +43,7 @@
                 <div class="card-body">
                     <p>03.08.2021.</p>
                     <h5>Priče s fažanske rive</h5>
-                    <a href="">VIŠE &gt</a>
+                    <a class="btnMore" href="">VIŠE &gt</a>
                 </div>
             </div>
 
@@ -51,7 +52,7 @@
                 <div class="card-body">
                     <p>14.08.2021.</p>
                     <h5>Tradicija večeri</h5>
-                    <a href="">VIŠE &gt</a>
+                    <a class="btnMore" href="">VIŠE &gt</a>
                 </div>
             </div>
 
@@ -60,7 +61,7 @@
                 <div class="card-body">
                     <p>28.08.2021.</p>
                     <h5>Valbandon pod zvezdama</h5>
-                    <a href="">VIŠE &gt</a>
+                    <a class="btnMore" href="">VIŠE &gt</a>
                 </div>
             </div>
         </div>
