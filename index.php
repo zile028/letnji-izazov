@@ -67,4 +67,5 @@
     </article>
 </section>
 
+<!-- FOOTER -->
 <?php include "partials/footer.php" ?>
