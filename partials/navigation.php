@@ -14,7 +14,7 @@
                 <a class="nav-link" href="istrazite.php">istražite</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">događanja</a>
+                <a class="nav-link" href="dogadjanja.php">događanja</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">blog</a>

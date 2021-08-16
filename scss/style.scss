@@ -67,6 +67,9 @@ h2 {
   &-explorer {
     background-image: url("../img/izleti.webp");
   }
+  &-events {
+    background-image: url("../img/dogadjanja.webp");
+  }
 }
 
 /* EXPLORE */
@@ -105,7 +108,9 @@ h2 {
 
 /* EVENTS */
 .events {
-  background-color: $lightGray;
+  &-index {
+    background-color: $lightGray;
+  }
   .row {
     margin-top: 30px;
   }

@@ -1,39 +1,20 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <?php include "partials/top.php" ?>
 <!-- NAVIGATION -->
 <?php include "partials/navigation.php" ?>
 
 <!-- HEADER -->
-<header class="header header-home  d-flex justify-content-center align-items-center">
-    <h1>Čarobno malo mjesto</h1>
-</header>
+<header class="header header-events"></header>
 
-<!-- EXPLORER -->
-<section class="explore container py">
-    <h2 class="overlineTitle">Istražite</h2>
-    <article class="row no-gutters justify-content-between">
-        <div class="col-md-6">
-            <img class="img-fluid" src="img/plaze.webp" alt="plaze">
-            <h5>Plaže</h5>
-        </div>
-        <div class="col-md-6">
-            <img class="img-fluid" src="img/izleti.webp" alt="izleti">
-            <h5>Izleti</h5>
-        </div>
-
-        <div class="col-md-6">
-            <img class="img-fluid" src="img/kultura.webp" alt="kultura">
-            <h5>Kultura</h5>
-        </div>
-
-        <div class="col-md-6">
-            <img class="img-fluid" src="img/priroda.webp" alt="priroda">
-            <h5>Priroda</h5>
-        </div>
-    </article>
+<section class="container intro py">
+    <h1>Događanja</h1>
+    <p>Fažana, mjesto polaska u otkrivanju...</p>
 </section>
+<hr class="divider container">
 
 <!-- EVENTS -->
-<section class="events events-index py">
+<section class="events py">
     <article class="container">
         <h2 class="overlineTitle">Događanja u Fažani</h2>
         <div class="row no-gutters justify-content-between">

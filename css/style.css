@@ -151,6 +151,10 @@ h2 {
   background-image: url("../img/izleti.webp");
 }
 
+.header-events {
+  background-image: url("../img/dogadjanja.webp");
+}
+
 /* EXPLORE */
 .explore article {
   margin-top: 30px;
@@ -193,7 +197,7 @@ h2 {
 }
 
 /* EVENTS */
-.events {
+.events-index {
   background-color: #f7f8f9;
 }
 
