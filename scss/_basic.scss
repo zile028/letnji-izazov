@@ -1,0 +1,58 @@
+// RESET STYLE
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// BASIC STYLE
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $textFont;
+  color: $gray;
+  line-height: 1;
+  font-size: $fontSize;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $textFont;
+  font-weight: 700;
+
+  span {
+    color: $green;
+  }
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color $transition;
+  &:hover {
+    text-decoration: none;
+  }
+}
+img {
+  display: block;
+}
+.py {
+  padding: $py;
+}
+.container {
+  width: $width;
+  max-width: 1140px;
+  margin: 0 auto;
+  @media (max-width: 769px) {
+    width: 90%;
+  }
+}

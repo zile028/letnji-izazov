@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #555555;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  color: #6dbe44;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.py {
+  padding: 100px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media (max-width: 769px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* GLOBAL */
+hr {
+  margin: 0;
+  width: 100%;
+  height: 5px;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#6dbe44), color-stop(#dfd99d), to(#04a9f4));
+  background: linear-gradient(to right, #6dbe44, #dfd99d, #04a9f4);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+h2 {
+  color: #555555;
+  font-size: 3rem;
+}
+
+.overlineTitle {
+  text-align: center;
+}
+
+.overlineTitle::before {
+  content: "";
+  display: block;
+  margin: 0 auto 30px;
+  width: 150px;
+  height: 3px;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#6dbe44), color-stop(#dfd99d), to(#04a9f4));
+  background: linear-gradient(to right, #6dbe44, #dfd99d, #04a9f4);
+}
+
+/* NAV */
+.navbar .nav-item {
+  margin-left: 30px;
+}
+
+.navbar .nav-item:first-child {
+  margin-left: 0;
+}
+
+.header {
+  height: 50vh;
+}
+
+.header-home {
+  background: url("../img/header1.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-home h1 {
+  background-color: rgba(223, 217, 157, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px 0px #dfd99d;
+          box-shadow: 0 0 10px 0px #dfd99d;
+  text-shadow: 0 0 2px #000000;
+}
+
+/* EXPLORE */
+.explore article {
+  margin-top: 30px;
+}
+
+.explore article .col-md-6 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+  -webkit-box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.7);
+  position: relative;
+  margin-bottom: 40px;
+  height: 300px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.explore article .col-md-6:hover {
+  -webkit-box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.99);
+          box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.99);
+}
+
+.explore article .col-md-6 img {
+  height: 100%;
+  width: 100%;
+}
+
+.explore article .col-md-6 h5 {
+  margin: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #04a9f4;
+  background-color: #ffffff;
+  padding: 10px;
+  text-shadow: 0 0 2px #555555;
+  font-size: 1.5rem;
+}
+
+/* EVENTS */
+.events {
+  background-color: #f7f8f9;
+}
+
+.events .row {
+  margin-top: 30px;
+}
+
+.events .col-md-4 {
+  border: none;
+  outline: none;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 31%;
+          flex: 0 0 31%;
+  -webkit-box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.events .col-md-4 div {
+  overflow: hidden;
+}
+
+.events .col-md-4 img {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.events .col-md-4 img:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+}
+
+.events .col-md-4 a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border: 1px solid #555555;
+}
+
+/* FOOTER */
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../img/footer.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/footer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+footer h3 {
+  margin-bottom: 30px;
+}
+
+footer p {
+  line-height: 1.6;
+}
+
+footer ul li {
+  line-height: 2.5;
+}
+/*# sourceMappingURL=style.css.map */
