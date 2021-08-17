@@ -20,11 +20,14 @@
 <section class="explore-posts row justify-content-between container py">
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/plaza1.webp" alt="">
+            <a href="plaza1.php">
+                <img src="img/plaza1.webp" alt="">
+            </a>
         </div>
         <div class="card-body">
             <h4>Plaža Dječje igralište</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit, harum obcaecati tempore
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit, harum obcaecati
+                tempore
                 eaque recusandae impedit cumque temporibus distinctio maiores ratione, unde iusto enim libero quod.
                 Tempora adipisci excepturi nemo....</p>
         </div>
@@ -32,23 +35,30 @@
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/plaza2.webp" alt="">
+            <a href="plaza2.php">
+                <img src="img/plaza2.webp" alt="">
+            </a>
         </div>
         <div class="card-body">
             <h4>Plaža Fažana sjever</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit, harum obcaecati tempore
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit, harum obcaecati
+                tempore
                 eaque recusandae impedit cumque temporibus distinctio maiores ratione, unde iusto enim libero quod.
                 Tempora adipisci excepturi nemo....</p>
         </div>
+
     </article>
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/plaza3.webp" alt="">
+            <a href="plaza3.php">
+                <img src="img/plaza3.webp" alt="">
+            </a>
         </div>
         <div class="card-body">
             <h4>Plaža Pineta</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit, harum obcaecati tempore
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit, harum obcaecati
+                tempore
                 eaque recusandae impedit cumque temporibus distinctio maiores ratione, unde iusto enim libero quod.
                 Tempora adipisci excepturi nemo....</p>
         </div>
