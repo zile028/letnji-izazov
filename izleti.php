@@ -19,7 +19,7 @@
 <section class="explore-posts row justify-content-between container py">
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/izlet1.webp" alt="">
+            <a href="izlet1.php"><img src="img/izlet1.webp" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Odlazak na ribolov s lokalnim ribarima</h4>
@@ -31,7 +31,7 @@
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/izlet2.webp" alt="">
+            <a href="izlet2.php"><img src="img/izlet2.webp" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Taxi boat / Taxi boat Jerolim</h4>
@@ -43,7 +43,7 @@
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/izlet1.webp" alt="">
+            <a href="izlet3.php"><img src="img/izlet1.webp" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Nacionalni park Brijuni</h4>
