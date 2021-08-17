@@ -43,6 +43,11 @@ h2 {
   margin-top: 10px;
   padding: 10px 30px;
   border: 1px solid $darkGray;
+  transition: $transition;
+  &:hover {
+    background-color: $lightBlue;
+    color: $white;
+  }
 }
 
 .zoomIn {
@@ -55,6 +60,7 @@ h2 {
     object-fit: cover;
     &:hover {
       transform: scale(110%);
+      opacity: 0.8;
     }
   }
 }
@@ -64,6 +70,9 @@ h2 {
   background: $lightGray;
   margin-bottom: 30px;
   margin-left: 20px;
+  @media (max-width: 768px) {
+    margin: 20px 0 0;
+  }
   h5 {
     border-bottom: 1px solid $green;
     margin-bottom: 20px;
@@ -74,12 +83,60 @@ h2 {
   }
 }
 
+.social {
+  // width: 40px;
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  div {
+    // height: 40px;
+    text-align: center;
+    color: $white;
+    transition: $transition;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateX(-25%);
+      opacity: 0.8;
+    }
+  }
+  a {
+    padding: 0.8em;
+    display: block;
+    &:hover {
+      color: $white;
+    }
+  }
+  &-fb {
+    background-color: $darkBlue;
+  }
+  &-inst {
+    background-color: $purple;
+  }
+  &-yt {
+    background-color: $red;
+  }
+}
+
 /* NAV */
 .navbar {
   .nav-item {
     margin-left: 30px;
+    @media (max-width: 991px) {
+      margin: 0px;
+      padding: 20px;
+    }
     &:first-child {
       margin-left: 0;
+    }
+    .nav-link {
+      transition: $transition;
+      font-weight: 600;
+      &:hover {
+        color: $darkBlue;
+      }
     }
   }
 }
@@ -125,6 +182,9 @@ h2 {
       height: 300px;
       transition: $transition;
       cursor: pointer;
+      @media (max-width: 768px) {
+        flex: 0 0 100%;
+      }
       &:hover {
         box-shadow: 0 0px 20px 0px rgba($black, 0.99);
       }
@@ -152,6 +212,9 @@ h2 {
       border: transparent;
       border-bottom: 2px solid $gray;
       border-radius: 0;
+      @media (max-width: 768px) {
+        flex: 0 0 100%;
+      }
       .card-body {
         padding-left: 0;
         padding-right: 0;
@@ -173,6 +236,10 @@ h2 {
     outline: none;
     flex: 0 0 31%;
     box-shadow: $boxShadow;
+    @media (max-width: 768px) {
+      flex: 0 0 100%;
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -217,18 +284,24 @@ h2 {
   @extend .singleBlog;
   article {
     background-color: transparent;
+    h3 {
+      margin-bottom: 20px;
+    }
+    h5 {
+      margin: 15px 0;
+    }
     div {
       padding: 40px 0;
     }
-  }
-  ul {
-    li {
-      line-height: 2;
-      &::before {
-        content: "\f00c";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        margin-right: 10px;
+    ul {
+      li {
+        line-height: 2;
+        &::before {
+          content: "\f00c";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-right: 10px;
+        }
       }
     }
   }
@@ -251,5 +324,15 @@ footer {
     li {
       line-height: 2.5;
     }
+  }
+}
+
+/* CONTACT */
+.contact {
+  iframe {
+    width: 100%;
+  }
+  textarea {
+    resize: none;
   }
 }

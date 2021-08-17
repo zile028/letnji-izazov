@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <?php include "partials/top.php" ?>
+<?php include 'partials/social.php' ?>
 <!-- NAVIGATION -->
 <?php include "partials/navigation.php" ?>
 
@@ -20,7 +19,7 @@
 <section class="explore-posts row justify-content-between container py">
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/priroda1.png" alt="">
+            <a href="priroda1.php"><img src="img/priroda1.png" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Nacionalni park Brijuni</h4>
@@ -32,7 +31,7 @@
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/priroda2.webp" alt="">
+            <a href="priroda2.php"><img src="img/priroda2.webp" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Valbandon na spoju izvora i mora</h4>
@@ -44,7 +43,7 @@
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/priroda3.webp" alt="">
+            <a href="priroda3.php"><img src="img/priroda3.webp" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Autohtone biljke</h4>

@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <?php include "partials/top.php" ?>
+<?php include 'partials/social.php' ?>
 <!-- NAVIGATION -->
 <?php include "partials/navigation.php" ?>
 
@@ -20,7 +19,7 @@
 <section class="explore-posts row justify-content-between container py">
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/kultura1.png" alt="">
+            <a href="kultura1.php"><img src="img/kultura1.png" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Općina Fažana</h4>
@@ -32,7 +31,7 @@
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/kultura2.webp" alt="">
+            <a href="kultura2.php"><img src="img/kultura2.webp" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Tragovi ostalih sakralnih objekata</h4>
@@ -44,7 +43,7 @@
 
     <article class="col-md-4 card p-0">
         <div class="card-img-top zoomIn">
-            <img src="img/kultura3.webp" alt="">
+            <a href="kultura3.php"><img src="img/kultura3.webp" alt=""></a>
         </div>
         <div class="card-body">
             <h4>Restauracija umjetnina</h4>

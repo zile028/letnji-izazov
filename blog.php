@@ -1,4 +1,6 @@
 <?php include "partials/top.php" ?>
+<?php include 'partials/social.php' ?>
+
 <!-- NAVIGATION -->
 <?php include "partials/navigation.php" ?>
 
