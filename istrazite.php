@@ -3,7 +3,9 @@
 <?php include "partials/navigation.php" ?>
 
 <!-- HEADER -->
-<header class="header header-explorer"></header>
+<header class="header">
+    <img src="img/izleti.webp" alt="">
+</header>
 
 <section class="container intro py">
     <h1>Istražite</h1>

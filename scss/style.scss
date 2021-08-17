@@ -45,6 +45,20 @@ h2 {
   border: 1px solid $darkGray;
 }
 
+.zoomIn {
+  overflow: hidden;
+  img {
+    transition: $transition;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    &:hover {
+      transform: scale(110%);
+    }
+  }
+}
+
 .widget {
   padding: 30px;
   background: $gray;
@@ -87,14 +101,10 @@ h2 {
       color: $white;
     }
   }
-  &-explorer {
-    background-image: url("../img/izleti.webp");
-  }
-  &-events {
-    background-image: url("../img/dogadjanja.webp");
-  }
-  &-blog {
-    background-image: url("../img/blog1.webp");
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -130,6 +140,19 @@ h2 {
       }
     }
   }
+  &-posts {
+    .col-md-4 {
+      flex: 0 0 31%;
+      max-width: 31%;
+      border: transparent;
+      border-bottom: 2px solid $gray;
+      border-radius: 0;
+      .card-body {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
 }
 
 /* EVENTS */
@@ -145,16 +168,6 @@ h2 {
     outline: none;
     flex: 0 0 31%;
     box-shadow: $boxShadow;
-    div {
-      overflow: hidden;
-    }
-    img {
-      transition: $transition;
-      cursor: pointer;
-      &:hover {
-        transform: scale(110%);
-      }
-    }
   }
 }
 

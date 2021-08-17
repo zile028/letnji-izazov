@@ -3,7 +3,9 @@
 <?php include "partials/navigation.php" ?>
 
 <!-- HEADER -->
-<header class="header header-events"></header>
+<header class="header">
+    <img src="img/dogadjanja.webp" alt="">
+</header>
 
 <section class="container intro py">
     <h1>Događanja</h1>

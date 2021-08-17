@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <?php include "partials/top.php" ?>
 <!-- NAVIGATION -->
 <?php include "partials/navigation.php" ?>
 
 <!-- HEADER -->
-<header class="header header-blog"></header>
+<header class="header">
+    <img src="img/blog1.webp" alt="">
+</header>
 
 <section class="container intro py">
     <h1>Blog</h1>
