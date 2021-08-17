@@ -252,6 +252,12 @@ h2 {
   background-color: #f7f8f9;
 }
 
+.header h1 {
+  color: #555555;
+  padding: 15px 0;
+  font-size: 2.5rem;
+}
+
 .header-home {
   background-image: url("../img/header1.webp");
   height: 50vh;
@@ -266,12 +272,6 @@ h2 {
           box-shadow: 0 0 10px 0px #dfd99d;
   text-shadow: 0 0 2px #000000;
   color: #ffffff;
-}
-
-.header h1 {
-  color: #555555;
-  padding: 15px 0;
-  font-size: 2.5rem;
 }
 
 .header img {

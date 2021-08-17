@@ -145,6 +145,11 @@ h2 {
 .header {
   @include bgBasic;
   background-color: $lightGray;
+  h1 {
+    color: $darkGray;
+    padding: 15px 0;
+    font-size: 2.5rem;
+  }
   &-home {
     background-image: url("../img/header1.webp");
     height: 50vh;
@@ -158,11 +163,7 @@ h2 {
       color: $white;
     }
   }
-  h1 {
-    color: $darkGray;
-    padding: 15px 0;
-    font-size: 2.5rem;
-  }
+
   img {
     width: 100%;
     height: 50vh;
