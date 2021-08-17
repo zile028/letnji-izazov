@@ -145,7 +145,7 @@ h2 {
 
 .widget {
   padding: 30px;
-  background: #d5d5d5;
+  background: #f7f8f9;
   margin-bottom: 30px;
   margin-left: 20px;
 }
@@ -171,14 +171,15 @@ h2 {
 
 /* HEADER */
 .header {
-  height: 50vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #f7f8f9;
 }
 
 .header-home {
   background-image: url("../img/header1.webp");
+  height: 50vh;
 }
 
 .header-home h1 {
@@ -192,9 +193,15 @@ h2 {
   color: #ffffff;
 }
 
+.header h1 {
+  color: #555555;
+  padding: 15px 0;
+  font-size: 2.5rem;
+}
+
 .header img {
-  height: 100%;
   width: 100%;
+  height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -284,6 +291,48 @@ h2 {
 
 .blog p a {
   color: #04a9f4;
+}
+
+/* SINGLE BLOG */
+.singleBlog article, .eventPost article {
+  background-color: #f7f8f9;
+}
+
+.singleBlog article div, .eventPost article div {
+  padding: 40px;
+}
+
+.singleBlog article p, .eventPost article p {
+  line-height: 2;
+  text-align: justify;
+}
+
+.singleBlog article .meta a, .eventPost article .meta a {
+  color: #04a9f4;
+}
+
+.singleBlog img, .eventPost img {
+  width: 100%;
+}
+
+/* EVENT POST */
+.eventPost article {
+  background-color: transparent;
+}
+
+.eventPost article div {
+  padding: 40px 0;
+}
+
+.eventPost ul li {
+  line-height: 2;
+}
+
+.eventPost ul li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
 }
 
 /* FOOTER */

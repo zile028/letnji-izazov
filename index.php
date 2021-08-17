@@ -51,7 +51,7 @@
                 <div class="card-body">
                     <p>03.08.2021.</p>
                     <h5>Priče s fažanske rive</h5>
-                    <a class="btnMore" href="">VIŠE &gt</a>
+                    <a class="btnMore" href="dogadjaj1.php">VIŠE &gt</a>
                 </div>
             </div>
 
@@ -60,7 +60,7 @@
                 <div class="card-body">
                     <p>14.08.2021.</p>
                     <h5>Tradicija večeri</h5>
-                    <a class="btnMore" href="">VIŠE &gt</a>
+                    <a class="btnMore" href="dogadjaj2.php">VIŠE &gt</a>
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
                 <div class="card-body">
                     <p>28.08.2021.</p>
                     <h5>Valbandon pod zvezdama</h5>
-                    <a class="btnMore" href="">VIŠE &gt</a>
+                    <a class="btnMore" href="dogadjaj3.php">VIŠE &gt</a>
                 </div>
             </div>
         </div>

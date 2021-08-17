@@ -26,7 +26,7 @@
                 <h5>Pješačenje</h5>
                 <p class="font-italic">03.08.2021. | <a href="">Admin</a></p>
                 <p>Pješačenjem možete na najbolji mogući način doživjeti...</p>
-                <a class="btnMore" href="">VIŠE &gt</a>
+                <a class="btnMore" href="blog1.php">VIŠE &gt</a>
             </div>
 
         </div>
@@ -39,10 +39,10 @@
             </div>
 
             <div class="col-md-6 d-flex justify-content-center align-items-start flex-column p-3">
-                <h5>Pješačenje</h5>
+                <h5>Bicikliranje</h5>
                 <p class="font-italic">03.08.2021. | <a href="">Admin</a></p>
                 <p>Pješačenjem možete na najbolji mogući način doživjeti...</p>
-                <a class="btnMore" href="">VIŠE &gt</a>
+                <a class="btnMore" href="blog2.php">VIŠE &gt</a>
             </div>
 
         </div>
@@ -55,10 +55,10 @@
             </div>
 
             <div class="col-md-6 d-flex justify-content-center align-items-start flex-column p-3">
-                <h5>Pješačenje</h5>
+                <h5>Dragulj starogradske jezgre</h5>
                 <p class="font-italic">03.08.2021. | <a href="">Admin</a></p>
                 <p>Pješačenjem možete na najbolji mogući način doživjeti...</p>
-                <a class="btnMore" href="">VIŠE &gt</a>
+                <a class="btnMore" href="blog3.php">VIŠE &gt</a>
             </div>
 
         </div>

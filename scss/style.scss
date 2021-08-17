@@ -61,7 +61,7 @@ h2 {
 
 .widget {
   padding: 30px;
-  background: $gray;
+  background: $lightGray;
   margin-bottom: 30px;
   margin-left: 20px;
   h5 {
@@ -86,11 +86,11 @@ h2 {
 
 /* HEADER */
 .header {
-  height: 50vh;
   @include bgBasic;
-
+  background-color: $lightGray;
   &-home {
     background-image: url("../img/header1.webp");
+    height: 50vh;
     h1 {
       font-size: 2rem;
       background-color: rgba($cream, 0.5);
@@ -101,9 +101,14 @@ h2 {
       color: $white;
     }
   }
+  h1 {
+    color: $darkGray;
+    padding: 15px 0;
+    font-size: 2.5rem;
+  }
   img {
-    height: 100%;
     width: 100%;
+    height: 50vh;
     object-fit: cover;
   }
 }
@@ -181,6 +186,50 @@ h2 {
   p {
     a {
       color: $lightBlue;
+    }
+  }
+}
+
+/* SINGLE BLOG */
+.singleBlog {
+  article {
+    background-color: $lightGray;
+    div {
+      padding: 40px;
+    }
+    p {
+      line-height: 2;
+      text-align: justify;
+    }
+    .meta {
+      a {
+        color: $lightBlue;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+
+/* EVENT POST */
+.eventPost {
+  @extend .singleBlog;
+  article {
+    background-color: transparent;
+    div {
+      padding: 40px 0;
+    }
+  }
+  ul {
+    li {
+      line-height: 2;
+      &::before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 10px;
+      }
     }
   }
 }
